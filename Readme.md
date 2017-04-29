@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
-* Студент: [Алексей Дорофеев](https://up.htmlacademy.ru/htmlcss/17/user/299055).
-* Наставник: `Неизвестно`.
+* Студент: [Алексей Дорофеев](https://up.htmlacademy.ru/htmlcss/16/user/299055).
+* Наставник: [Николай Маркелов](https://up.htmlacademy.ru/htmlcss/16/user/235291).
 
 ---
 
