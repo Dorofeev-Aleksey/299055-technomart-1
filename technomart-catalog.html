@@ -5,7 +5,7 @@
     <title>Техномарт - каталог</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/style.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
     <header class="main-header">
@@ -70,7 +70,7 @@
     <main class="container clearfix">
       <div class="breadcrumbs">
         <ul>
-          <li><a href="index.html" class="breadcrumbs-first" title="Главная страница">Главная страница<!--<img src="img/icon-home.png" alt="Главная страница" width="15" height="12">--></a></li>
+          <li><a href="index.html" class="breadcrumbs-first" title="Главная страница">Главная страница</a></li>
           <li><a href="#">Каталог</a></li>
           <li><a href="#">Инструмент</a></li>
           <li><a href="#">Перфораторы</a></li>
@@ -126,11 +126,11 @@
           <div class="filter-header">Питание:</div>
           <ul class="list-form-2">
             <li>
-                <input type="checkbox" name="battery" id="battery-id" checked>
+                <input type="radio" name="power" id="battery-id" value="battery" checked>
                 <label for="battery-id">Аккумуляторные</label>
             </li>
             <li>
-                <input type="checkbox" name="network" id="network-id">
+                <input type="radio" name="power" value="network" id="network-id">
                 <label for="network-id">Сетевые</label>
             </li>
           </ul>
